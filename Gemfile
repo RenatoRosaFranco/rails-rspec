@@ -55,6 +55,8 @@ group :development, :test do
   gem 'rubocop'
   # Use rails_best_practices as best_practices
   gem 'rails_best_practices'
+  # Use heroku as deploy 
+  gem 'heroku'
 end
 
 group :development do
