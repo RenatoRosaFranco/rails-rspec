@@ -26,15 +26,15 @@ Things you may want to cover:
 	$ rspec spec/controllers/<br/>
 	$ rspec spec/model/<br/>
 
-	use -fd to formar documentation, example:<br/>	 
+	use -fd to format documentation, example:<br/>	 
 	$ rspec -fd spec<br/>
 
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions<br/>
 	$ heroku login<br/>
-	$ heroku create app_name<br/>
-	# add remote origin to heroku<br/>
+	$ heroku create app_name<br/></br>
+	add remote origin to heroku<br/>
 	$ git push heroku master<br/>
 
 	see remote addeds<br/>
