@@ -32,12 +32,12 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions<br/>
-	'''$ heroku login<br/>
+	$ heroku login<br/>
 	$ heroku create app_name<br/>
 	# add remote origin to heroku<br/>
 	$ git push heroku master<br/>
 
 	see remote addeds<br/>
 	$ git remote -v<br/>
-	'''
+
 * ...
