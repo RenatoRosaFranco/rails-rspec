@@ -57,6 +57,8 @@ group :development, :test do
   gem 'rails_best_practices'
   # Use heroku as deploy 
   gem 'heroku'
+  # Use rails-erd as database diagram
+  gem 'rails-erd'
 end
 
 group :development do
