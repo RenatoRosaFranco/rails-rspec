@@ -16,4 +16,9 @@ RSpec.describe Contact, type: :model do
   	it "have many phones" do 
   		expect(FactoryBot.build(:contact)).to have_many(:phones)
   	end
+  	it 'respond to validations' do 
+  		contact = FactoryBot.build(:contact) 
+  		expect(contact).to validate_presence_of(:firstname)
+  		expect(contact).to validate_presence_of(:lastname)
+  	end
 end

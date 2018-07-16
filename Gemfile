@@ -46,6 +46,7 @@ group :development, :test do
   gem 'factory_bot_rails' 
   gem 'responders'
   gem 'rubocop'
+  gem 'rails_best_practices'
 end
 
 group :development do

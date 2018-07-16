@@ -10,5 +10,10 @@
   <%= @contact.lastname %>
 </p>
 
+<p>
+	<strong>Full Name</strong>
+	<%= @contact.ful_name l%>
+</p>
+
 <%= link_to 'Edit', edit_contact_path(@contact) %> |
 <%= link_to 'Back', contacts_path %>

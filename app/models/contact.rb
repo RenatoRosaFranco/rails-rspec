@@ -1,8 +1,5 @@
 # fronzen_string_sanatizer: true
 class Contact < ApplicationRecord
-	self.table_name  = 'contacts'
-	self.primary_key = 'id'
-
 	has_many  :phones, dependent: :destroy
 
 	validates :firstname,
@@ -18,6 +15,6 @@ class Contact < ApplicationRecord
 	 					length: { maximum: 30 }
 
 	def full_name
-	 	[firstname, lastname].join " "
+	 	[firstname, lastname].join("")
 	end
 end

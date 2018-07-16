@@ -13,7 +13,6 @@
         null,
         1,
         1,
-        null,
         1,
         null,
         1,
@@ -85,9 +84,6 @@
         null,
         1,
         1,
-        1,
-        null,
-        1,
         null,
         1,
         null,
@@ -114,9 +110,6 @@
       "/home/renato-franco/Área de Trabalho/howto_test/app/models/phone.rb": [
         null,
         1,
-        1,
-        1,
-        null,
         1,
         null,
         1,
@@ -155,6 +148,6 @@
         0
       ]
     },
-    "timestamp": 1531707512
+    "timestamp": 1531710269
   }
 }
