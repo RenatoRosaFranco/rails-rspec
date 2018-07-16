@@ -39,13 +39,21 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # Use pry-rails as terminal
   gem 'pry-rails'
+  # Use pry-byebug as code debugger
   gem 'pry-byebug'
+  # Use rspec-rails as test-framework
   gem 'rspec-rails'
+  # Use rails-controller-testing to enable should 
   gem 'rails-controller-testing'
+  # Use factory_bot_rails to generate factories
   gem 'factory_bot_rails' 
+  # Use responders to respond format
   gem 'responders'
+  # Use rubocop to code quality
   gem 'rubocop'
+  # Use rails_best_practices as best_practices
   gem 'rails_best_practices'
 end
 
@@ -64,11 +72,17 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
+  # Use faker to generate fake data
   gem 'faker'
+  # Use guard-rspec to test code after changes
   gem 'guard-rspec'
+  # Use launchy for cross-plataform applications
   gem 'launchy'
+  # Use shoulda to made test easy to read
   gem 'shoulda'
+  # Use simplecov as code coverage
   gem 'simplecov'
+  # Use database_cleaner as database clean before tests
   gem 'database_cleaner'
 end
 
